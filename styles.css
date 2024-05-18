@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p {
+    flex: 1;
+    margin: 0 10px; /* Adjust as needed */
+  }
+  
+  .social-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px; /* Adjust as needed */
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 5px; /* Adjust as needed */
+  }
+  
+  .social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Makes the social icons round */
+  }
+  #reach-out {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #reach-out h2 {
+    margin-bottom: 10px;
+  }
+  
+  #reach-out p {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  #reach-out form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #reach-out label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  #reach-out input,
+  #reach-out select,
+  #reach-out textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc; /* Add a bottom border */
+    background-color: transparent; /* Remove default input background */
+  }
+  
+  #reach-out button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #reach-out button:hover {
+    background-color: #555;
+  }
+    
+  
+.book-now-btn {
+    display: inline-block;
+    background-color: #993232;
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 100%; /* Make it a circle */
+    text-decoration: none;
+    font-size: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .book-now-btn:hover {
+    background-color: #45a049;
+  }
+  

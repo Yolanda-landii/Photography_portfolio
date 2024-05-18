@@ -1,0 +1,223 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #a04044;
+}
+
+section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+section ul {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p {
+    flex: 1;
+    margin: 0 10px; /* Adjust as needed */
+  }
+  
+  .social-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px; /* Adjust as needed */
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 5px; /* Adjust as needed */
+  }
+  
+  .social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Makes the social icons round */
+  }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    section h2 {
+        font-size: 1.5em;
+    }
+    section h3 {
+        font-size: 1.2em;
+    }
+}
+#policies {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#policies h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.policy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.policy {
+    width: calc(25% - 40px);
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.policy h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #c54b55;
+}
+
+.policy p {
+    margin-bottom: 15px;
+}
+
+.policy .btn {
+    background-color: #423e42;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.policy .btn:hover {
+    background-color: #993d60;
+}
+#pricing {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#pricing h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.session {
+    width: calc(33.33% - 40px);
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.session h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #b84f4f;
+}
+
+.session p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #af3a3a;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #7c132a;
+}

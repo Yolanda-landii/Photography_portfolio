@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer Portfolio</title>
+    <link rel="stylesheet" href="portStyles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Mfana_Ka_Maluleke</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="gallery">
+        <div class="gallery-row">
+            <div class="gallery-item">
+                <img src="images/potraits/WhatsApp Image 2024-05-15 at 14.57.14.jpeg" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/potraits/WhatsApp Image 2024-05-15 at 15.12.34.jpeg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/potraits/WhatsApp Image 2024-05-15 at 15.12.36.jpeg" alt="Image 3">
+            </div>
+        </div>
+        <div class="gallery-row">
+            <div class="gallery-item">
+                <img src="images/potraits/WhatsApp Image 2024-05-15 at 15.12.37 (1).jpeg" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/potraits/WhatsApp Image 2024-05-15 at 15.12.37.jpeg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/potraits/WhatsApp Image 2024-05-15 at 15.12.38 (1).jpeg" alt="Image 3">
+            </div>
+        </div>
+        <div class="gallery-row">
+            <div class="gallery-item">
+                <img src="images/potraits/WhatsApp Image 2024-05-15 at 15.12.38.jpeg" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/potraits/WhatsApp Image 2024-05-15 at 15.12.39.jpeg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/potraits/WhatsApp Image 2024-05-15 at 15.39.12.jpeg" alt="Image 3">
+            </div>
+        </div>
+        <!-- Repeat the structure for additional rows -->
+    </div>
+
+    <!-- Modal for Viewing Images -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <a class="prev" onclick="prevImage()">&#10094;</a>
+        <a class="next" onclick="nextImage()">&#10095;</a>
+    </div>
+    
+    <footer id="footer">
+        <p>Mfana_Ka_Maluleke is a Photographer specializing in emotive documentary photography, Videography and Studio Shoots. He’s available for sessions and adventures around Pretoria and Johannesburg.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/mfana_ka_maluleke?hl=en"><img src="images/instagram.jpg" alt="Instagram"></a>
+            <a href="https://www.facebook.com/pun.iisher.1"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/Legend_Maluleke"><img src="images/x.jpg" alt="Twitter"></a>
+        </div>
+        <p>&copy; 2024 by Legend Maluleke.</p>
+    </footer>
+</body>
+</html>
