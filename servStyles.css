@@ -177,8 +177,8 @@ footer {
 }
 
 #pricing h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 5em;
+    margin-bottom: 50px;
     color: #333;
 }
 
@@ -211,13 +211,72 @@ footer {
 
 .btn {
     display: inline-block;
-    background-color: #af3a3a;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    background-color: #af585c;
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
     text-decoration: none;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+#fullscreen-image {
+    width: 100%; /* Increase width as needed */
+    height: 100%; /* Increase height as needed */
+    display: block;
+    margin: 10 auto; /* Center horizontally */
+    margin-top: 50px;
 }
 
 .btn:hover {
     background-color: #7c132a;
 }
+#reach-out {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #reach-out h2 {
+    margin-bottom: 10px;
+  }
+  
+  #reach-out p {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  #reach-out form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #reach-out label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  #reach-out input,
+  #reach-out select,
+  #reach-out textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc; /* Add a bottom border */
+    background-color: transparent; /* Remove default input background */
+  }
+  
+  #reach-out button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #reach-out button:hover {
+    background-color: #555;
+  }
